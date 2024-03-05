@@ -1,0 +1,33 @@
+.main__section {
+  display: flex;
+  margin: 70px 0 50px 0;
+}
+.project {
+  width: 60% + 40%;
+  h2 {
+    width: 495px;
+    height: 130px;
+    word-spacing: 10px;
+  }
+  .project__info {
+    width: 635px;
+    height: 222px;
+  }
+}
+.aside {
+  min-width: 335px;
+  height: 243px;
+  line-height: 50px;
+
+  span {
+    padding-right: 50px;
+  }
+}
+
+.project__sub_info {
+  margin: 40px 0 40px 0;
+}
+.image__section {
+  display: flex;
+  justify-content: space-between;
+}
