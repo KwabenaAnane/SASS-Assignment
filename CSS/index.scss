@@ -1,5 +1,190 @@
+@import "projects";
+@import "contacts";
+
 * {
+  margin: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
+
+  font-family: Poppins, sans-serif;
 }
+body {
+  margin: 60px;
+  width: 1110px;
+  height: 3840px;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-family: Poppins, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+
+  display: inline-block;
+
+  padding: 20px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.stars {
+  color: #4a4ff2;
+}
+
+.designer {
+  color: #4a4ff2;
+}
+
+.design {
+  padding-top: 150px;
+  margin-left: 100px;
+}
+
+.main__1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  h2 {
+    padding-top: 30px;
+    line-height: 40px;
+    word-spacing: 10px;
+  }
+}
+.intro {
+  width: 635px;
+  height: 251px;
+  border: 1px grey;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+// Gallery
+.grid__container {
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  grid-gap: 15px;
+  width: 1110px;
+  height: 1960px;
+
+  /*
+    grid-row-gap: 15px; 
+    grid-column-gap: 15px;
+    */
+  // width: 85%;
+  // height: 80%;
+  background-color: #f7f5f9;
+  box-shadow: 4px 4px 12px #000000;
+  padding: 15px;
+}
+.grid__element {
+  overflow: hidden;
+  position: relative;
+}
+
+.pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.first__grid {
+  grid-column: 1/4;
+  grid-row: 1/7;
+}
+.second__grid {
+  grid-column: 1/4;
+  grid-row: 7/14;
+}
+.third__grid {
+  grid-column: 1/4;
+  grid-row: 14/22;
+}
+.fourth__grid {
+  grid-column: 1/4;
+  grid-row: 22/32;
+}
+.fifth__grid {
+  grid-column: 4/7;
+  grid-row: 1/6;
+}
+.sixth__grid {
+  grid-column: 4/7;
+  grid-row: 6/13;
+}
+.seventh__grid {
+  grid-column: 4/7;
+  grid-row: 13/21;
+}
+.eigth__grid {
+  grid-column: 4/7;
+  grid-row: 21/32;
+}
+.ninth__grid {
+  grid-column: 7/10;
+  grid-row: 1/10;
+}
+.tenth__grid {
+  grid-column: 7/10;
+  grid-row: 10/17;
+}
+.eleventh__grid {
+  grid-column: 7/10;
+  grid-row: 17/26;
+}
+.twelfth__grid {
+  grid-column: 7/10;
+  grid-row: 26/32;
+}
+
+.main__2 {
+  padding: 70px 0 70px 0;
+  display: flex;
+}
+.headline {
+  width: 635px;
+  height: 106px;
+}
+
+.job_offering {
+  width: 444px;
+  height: 106px;
+  line-height: 0px;
+  // padding-bottom: 40px;
+
+  li {
+    color: #111111;
+  }
+}
+
+.awards {
+  margin: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    color: #111111;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+
+footer {
+  padding-top: 60px;
+}
+
+// PROJECTS PAGE
